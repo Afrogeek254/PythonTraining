@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver.firefox.webdriver import WebDriver
-from selenium.webdriver.common.action_chains import ActionChains
-import time, unittest
+import unittest
 
 def is_alert_present(wd):
     try:
@@ -16,9 +15,10 @@ class record(unittest.TestCase):
         self.wd.implicitly_wait(60)
     
     def test_record(self):
-        success = True
         wd = self.wd
+        # Homepage open
         wd.get("http://localhost/addressbook/group.php")
+        # login
         wd.find_element_by_name("pass").click()
         wd.find_element_by_name("pass").clear()
         wd.find_element_by_name("pass").send_keys("secret")
@@ -26,7 +26,9 @@ class record(unittest.TestCase):
         wd.find_element_by_name("user").clear()
         wd.find_element_by_name("user").send_keys("admin")
         wd.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
+        # Adding new group
         wd.find_element_by_name("new").click()
+        # Fill group form
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
         wd.find_element_by_name("group_name").send_keys("sadfvsa")
@@ -36,14 +38,14 @@ class record(unittest.TestCase):
         wd.find_element_by_name("group_footer").click()
         wd.find_element_by_name("group_footer").clear()
         wd.find_element_by_name("group_footer").send_keys("asgfsdg")
+        # submit group creation
         wd.find_element_by_name("submit").click()
+        # return to group page
+        wd.find_element_by_link_text("group page").click()
+        # logout
         wd.find_element_by_link_text("Logout").click()
-        wd.find_element_by_name("user").click()
-        wd.find_element_by_name("user").send_keys("\\undefined")
-        wd.find_element_by_name("pass").click()
-        wd.find_element_by_name("pass").send_keys("\\undefined")
-        self.assertTrue(success)
-    
+
+
     def tearDown(self):
         self.wd.quit()
 
