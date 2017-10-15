@@ -14,8 +14,8 @@
       <file leaf-file-name="record.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#24#82#0" expanded="true" />
               </folding>
@@ -23,7 +23,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test_record</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +53,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/group.py" />
         <option value="$PROJECT_DIR$/record.py" />
       </list>
     </option>
@@ -156,34 +179,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 00h 48m 13s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 56m 18s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 11m 14s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 57m 11s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 12m 25s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 57m 35s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 21m 30s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 58m 50s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 21m 43s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 02h 01m 04s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 23m 47s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 02h 01m 50s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 25m 10s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 02h 03m 20s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 25m 51s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 02h 04m 29s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 26m 43s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 02h 05m 00s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_record_py - 2017.10.16 at 01h 27m 55s.xml">
+    <history-entry file="py_test_in_record_py - 2017.10.16 at 02h 06m 03s.xml">
       <configuration name="py.test in record.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -194,12 +217,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41884816" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14790575" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39921466" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -221,10 +244,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/record.py">
+    <entry file="file://$PROJECT_DIR$/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
           </folding>
