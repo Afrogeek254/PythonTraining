@@ -4,12 +4,14 @@ from selenium.webdriver.support.ui import Select
 import unittest
 from Clases import Contact
 
+
 def is_alert_present(wd):
     try:
         wd.switch_to_alert().text
         return True
     except:
         return False
+
 
 class Add_Contact(unittest.TestCase):
     def setUp(self):
@@ -28,6 +30,22 @@ class Add_Contact(unittest.TestCase):
                             email2="test@test.com", email3="Test@test.com", homepage="localhost/Addressbook", bday="5",
                             bmonth="5", byear="1975", aday="5", amonth="5", ayear="2015", address2="Moscow",
                             home2="h.5 f. 35", notes="Test"))
+        self.return_homepage(wd)
+        self.logout(wd)
+        self.assertTrue(success)
+
+    def test_Add_Contact_epty(self):
+        success = True
+        wd = self.wd
+        wd.get("http://localhost/Addressbook/")
+        self.login(wd, username="admin", password="secret")
+        self.add_new_contact(wd)
+        self.create_contact(wd, Contact(firstname="", middlename="", lastname="", nickname="",
+                            title="", company="", address="",
+                            home="", mobile="", work="", email="",
+                            email2="", email3="", homepage="", bday="0",
+                            bmonth="0", byear="", aday="0", amonth="0", ayear="", address2="",
+                            home2="", notes=""))
         self.return_homepage(wd)
         self.logout(wd)
         self.assertTrue(success)
@@ -93,7 +111,7 @@ class Add_Contact(unittest.TestCase):
         wd.find_element_by_name("byear").send_keys(contact.byear)
         # Select Anniversary date
         Select(wd.find_element_by_name("aday")).select_by_index(contact.aday)
-        Select(wd.find_element_by_name("amonth")).select_by_index(contact.aday)
+        Select(wd.find_element_by_name("amonth")).select_by_index(contact.amonth)
         wd.find_element_by_name("ayear").click()
         wd.find_element_by_name("ayear").clear()
         wd.find_element_by_name("ayear").send_keys(contact.ayear)
@@ -126,6 +144,7 @@ class Add_Contact(unittest.TestCase):
 
     def tearDown(self):
         self.wd.quit()
+
 
 if __name__ == '__main__':
     unittest.main()

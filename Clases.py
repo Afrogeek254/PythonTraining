@@ -26,10 +26,14 @@ class Contact:
         self.email2 = email2
         self.email3 = email3
         self.homepage = homepage
-        self.bday = bday + 1
+        # Перевод в число для осуществления операции исходя из единообразия типа передаваемых параметров, в строку
+        # для нормальной работы
+        self.bday = str(int(bday)+1)
         self.bmonth = bmonth
         self.byear = byear
-        self.aday = aday + 1
+        # Перевод в число для осуществления операции исходя из единообразия типа передаваемых параметров, в строку
+        # для нормальной работы
+        self.aday = str(int(aday)+1)
         self.amonth = amonth
         self.ayear = ayear
         self.address2 = address2
