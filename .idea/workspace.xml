@@ -11,23 +11,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Add_group.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Add_group.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#24#82#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Add_Contact.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add_Contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Add_Contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="132">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="e#24#82#0" expanded="true" />
               </folding>
@@ -39,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Clases.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -60,20 +70,25 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+    <option name="FORCE_PUSH_ALLOWED" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/group.py" />
         <option value="$PROJECT_DIR$/record.py" />
-        <option value="$PROJECT_DIR$/Add_group.py" />
         <option value="$PROJECT_DIR$/Add_Contact.py" />
         <option value="$PROJECT_DIR$/Clases.py" />
+        <option value="$PROJECT_DIR$/Add_group.py" />
+        <option value="$PROJECT_DIR$/application.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="667" />
     <option name="y" value="38" />
     <option name="width" value="800" />
@@ -125,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in Add_Contact.py">
+  <component name="RunManager" selected="Python tests.py.test in Add_group.py">
     <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,6 +186,21 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Add_Contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="py.test in Add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="F:\GitHub\PythonTraining\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonTraining" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="py.test in PythonTraining" type="tests" factoryName="py.test" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,17 +231,19 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/record.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in PythonTraining" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in record.py" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in Add_Contact.py" />
       <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for Add_Contact.Add_Contact.test_Add_Contact_epty" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in Add_group.py" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in Add_Contact.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for Add_Contact.Add_Contact.test_Add_Contact_epty" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in record.py" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in Add_group.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Add_Contact.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for Add_Contact.Add_Contact.test_Add_Contact_epty" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in record.py" />
       </list>
     </recent_temporary>
   </component>
@@ -229,18 +261,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_Add_Contact_Add_Contact_test_Add_Contact_epty - 2017.10.25 at 19h 53m 01s.xml">
-      <configuration name="py.test for Add_Contact.Add_Contact.test_Add_Contact_epty" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_Add_Contact_py - 2017.10.25 at 19h 39m 09s.xml">
-      <configuration name="py.test in Add_Contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_Add_Contact_py - 2017.10.25 at 19h 39m 33s.xml">
-      <configuration name="py.test in Add_Contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_Add_Contact_py - 2017.10.25 at 19h 40m 07s.xml">
-      <configuration name="py.test in Add_Contact.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_Add_Contact_py - 2017.10.25 at 19h 41m 54s.xml">
       <configuration name="py.test in Add_Contact.py" configurationId="tests" />
     </history-entry>
@@ -259,9 +279,21 @@
     <history-entry file="py_test_in_Add_Contact_py - 2017.10.25 at 19h 53m 39s.xml">
       <configuration name="py.test in Add_Contact.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_Add_group_py - 2017.10.28 at 20h 43m 37s.xml">
+      <configuration name="py.test in Add_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_Add_group_py - 2017.10.28 at 20h 45m 08s.xml">
+      <configuration name="py.test in Add_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_Add_group_py - 2017.10.28 at 21h 05m 10s.xml">
+      <configuration name="py.test in Add_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_Add_group_py - 2017.10.28 at 21h 08m 40s.xml">
+      <configuration name="py.test in Add_group.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -299,7 +331,35 @@
         <state relative-caret-position="510">
           <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Add_Contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
             <element signature="e#24#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -329,27 +389,35 @@
     <entry file="file://$PROJECT_DIR$/Clases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Add_group.py">
+    <entry file="file://$PROJECT_DIR$/Add_Contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="132">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="e#24#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Add_Contact.py">
+    <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#24#82#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
