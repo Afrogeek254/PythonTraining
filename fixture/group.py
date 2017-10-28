@@ -1,24 +1,17 @@
-from selenium.webdriver.firefox.webdriver import WebDriver
 
 
-class Application:
+class GroupHelper:
 
-    def __init__(self):
-        self.wd = WebDriver(capabilities={"marionette": False})
-        self.wd.implicitly_wait(60)
-
-    def log_out(self):
-        wd = self.wd
-        # logout
-        wd.find_element_by_link_text("Logout").click()
+    def __init__(self, app):
+        self.app = app
 
     def return_to_groups_page(self):
-        wd = self.wd
+        wd = self.app.wd
         # return to group page
         wd.find_element_by_link_text("group page").click()
 
-    def create_group(self, group):
-        wd = self.wd
+    def create(self, group):
+        wd = self.app.wd
         self.add_new_group()
         # Fill group form
         wd.find_element_by_name("group_name").click()
@@ -35,26 +28,11 @@ class Application:
         self.return_to_groups_page()
 
     def add_new_group(self):
-        wd = self.wd
+        wd = self.app.wd
         # Adding new group
         wd.find_element_by_name("new").click()
 
-    def login(self, username, password):
-        wd = self.wd
-        # login
-        self.open_home_page()
-        wd.find_element_by_name("user").click()
-        wd.find_element_by_name("user").clear()
-        wd.find_element_by_name("user").send_keys(username)
-        wd.find_element_by_name("pass").click()
-        wd.find_element_by_name("pass").clear()
-        wd.find_element_by_name("pass").send_keys(password)
-        wd.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
-
     def open_home_page(self):
-        wd = self.wd
+        wd = self.app.wd
         # Homepage open
         wd.get("http://localhost/addressbook/group.php")
-
-    def destr(self):
-        self.wd.quit()
